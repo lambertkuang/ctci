@@ -1,0 +1,17 @@
+{
+  "name": "google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ctci_ch1.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "ava tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  }
+}
