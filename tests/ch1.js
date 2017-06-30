@@ -99,3 +99,7 @@ test('areAnagramsBySort returns false for two strings which are not anagrams', (
 test('areAnagramsBySort returns true for two strings which are anagrams', (t) => {
   t.is(chapter1.areAnagrams('b', 'b'), true);
 });
+
+test('replaceStrings replaces spaces with %20', (t) => {
+  t.is(chapter1.replaceStrings('hello world'), 'hello%20world');
+});

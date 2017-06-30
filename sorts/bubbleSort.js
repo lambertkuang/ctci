@@ -1,7 +1,3 @@
-const swap = () => {
-
-}
-
 const bubbleSort = (array) => {
   let sorted = false;
   let arr = [...array];

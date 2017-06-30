@@ -94,11 +94,26 @@ const areAnagramsBySort = (strA, strB) => {
   return bubbleSort(strA) === bubbleSort(strB);
 };
 
+// TODO: finish
+const replaceStrings = (str) => {
+  // return str.replace(' ', '%20');
+  let numSpaces = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === ' ') {
+      numSpaces += 1;
+    }
+  }
+
+  return str;
+};
+
 module.exports = {
   uniqueChars,
   uniqueCharsNoDS,
   reverseCString,
   removeDupeChars,
   areAnagrams,
-  areAnagramsBySort
+  areAnagramsBySort,
+  replaceStrings
 };
